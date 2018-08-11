@@ -57,15 +57,12 @@ function createHero(x) {
     hero.hp = x.hp
     hero.attack = x.attack
     hero.attackIncrease = x.attackIncrease
-    hero.counter = x.counter
 }
 
 //Function for creating defender values
 function createDefender(x) {
     defender.name = x.name
     defender.hp = x.hp
-    defender.attack = x.attack
-    defender.attackIncrease = x.attackIncrease
     defender.counter = x.counter
 }
 
