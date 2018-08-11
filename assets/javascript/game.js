@@ -264,11 +264,4 @@ $(document).ready(function () {
         reset();
     });
 
-    //When character is clicked, move selected into "Your Character" - hero
-    //Move remaining enemies into "Enemies Available to Attack"
-    //Click on one enemy and move them to Fight section
-    //When user clicks attack button, hero attacks enemy for starting attack power. This increases by initial attack power every time...8,16,24,32,40, etc
-    //Enemy counter-attacks same damage every time
-    //When enemy's hp = 0, enemy is deleted and a new enemy may be selected
-
 });
