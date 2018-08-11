@@ -1,0 +1,129 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #333;
+    color: #e8911e;
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
+}
+
+h2 {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+}
+
+button {
+    margin-top: 0.5em;
+    background-color: #e8911e;
+    border: none;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.character:hover {
+    cursor: pointer;
+}
+
+.available {
+    border: 2px solid #e8911e;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    background: #fff;
+    color: #111;
+}
+
+.hero {
+    border: 2px solid #e8911e;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    background: #e8911e;
+    color: #111;
+}
+
+.enemy {
+    border: 2px solid #111;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    background: #fff;
+    color: #e8911e;
+}
+
+.defender {
+    border: 2px solid #e8911e;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    background: #111;
+    color: #e8911e;
+}
+
+.char-title {
+    margin-bottom: 0;
+}
+
+.char-img {
+    height: 66%;
+    width: 66%;
+    display: block;
+    margin: auto;
+}
+
+.placeholder {
+    height: 150px;
+    width: 1x;
+    display: inline-block;
+}
+
+#message,
+#messagetwo {
+    font-weight: bold;
+}
+
+@media screen and (max-height: 775px) {
+    .available {
+        height: 110px;
+        width: 110px;
+    }
+    .hero {
+        height: 110px;
+        width: 110px;
+    }
+    .enemy {
+        height: 110px;
+        width: 110px;
+    }
+    .defender {
+        height: 110px;
+        width: 110px;
+    }
+    .placeholder {
+        height: 100px;
+    }
+    .char-title,
+    .hp {
+        font-size: 0.8em;
+    }
+    h1 {
+        font-size: 2.25em;
+    }
+    h2 {
+        font-size: 1.25em;
+    }
+    button {
+        height: 25px;
+        font-size: 0.8em;
+    }
+}
