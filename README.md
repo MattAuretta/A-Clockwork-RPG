@@ -10,4 +10,6 @@ Everytime the player clicks attack, the defender's health (HP) is lowered by the
 Once the player defeats all remaining fighters, the player wins!
 If the player's HP reaches 0 or lower, the game is over and a restart button will appear.
 
+https://mattauretta.github.io/A-Clockwork-RPG/
+
 ![Screenshot of Game](assets/images/screenshot.png)
